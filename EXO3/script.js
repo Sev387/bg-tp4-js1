@@ -14,5 +14,5 @@ function A(){
         let MOY=(etudiant[3]+etudiant[4])/2;
         let RESULT= B(MOY)? "ADMIS" : "Ajourné";
         console.log(`${id}: ${RESULT}`)
-    })
+    });
 }
